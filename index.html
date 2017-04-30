@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>MyPage</title>
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/ress/dist/ress.min.css">
+	<link rel="stylesheet" href="stylesheet1.css">
+	<script language="javascript">
+		function open(){
+			window.open("popup.html","설명", "width=50px, height=100px, top=50%, left=50%")
+		}
+ 		function aa(){
+	 		if(event.button==2){
+		 		alert("오른쪽마우스사용금지")
+		 	}
+ 		}
+ 		document.onmousedown=aa
+ 	</script>
+
+</head>
+<body onload="open()">
+<div id="background">
+	<header>
+		<h1>Angela</h1>
+		<nav class="top">
+			<ul>
+				<li><a href="#">Home</a>
+				<li><a href="#">Profile</a>
+				<li><a href="#fashion">fashion</a>
+				<li><a href="Music//Music.html">Music</a>
+			</ul>
+
+		</nav>
+	</header>
+		<section class="sec1">
+		<audio src="SOMA-Midnight In Paris.mp3" controls="controls" type ="audio/mp3" autoplay="autoplay" loop="loop"></audio>
+		<p class="p1"> 1996.08.30 </p>
+		<p class="p2"> Kim Yeon Kyung</p>
+		</section>
+
+		<section id="fashion">
+			<div class="container row">
+				<h2>fashion</h2>
+				<article class="fashion_content col-2">
+					<div class="fashion_container">
+						<img src="f1.JPG" alt="">
+					</div>
+				</article>
+				<article class="fashion_content col-2">
+					<div class="fashion_container">
+						<img src="f2.JPG" alt="">
+					</div>
+				</article>
+				<article class="fashion_content col-2">
+					<div class="fashion_container">
+						<img src="f3.JPG" alt="">
+					</div>
+				</article>
+				<article class="fashion_content col-2">
+					<div class="fashion_container">
+						<img src="f4.JPG" alt="">
+					</div>
+				</article>
+				<article class="fashion_content col-2">
+					<div class="fashion_container">
+						<img src="f5.JPG" alt="">
+					</div>
+				</article>
+				<article class="fashion_content col-2">
+					<div class="fashion_container">
+						<img src="f6.JPG" alt="">
+					</div>
+				</article>
+			</div>
+			<div class="container row">
+				<article class="fashion_content col-6">
+					<div class="fashion_container">
+						<img src="f8.PNG" alt="">
+					</div>
+				</article>
+				<article class="fashion_content col-6">
+					<div class="fashion_container">
+						<img src="f7.PNG" alt="">
+					</div>
+				</article>
+			</div>
+		</section>
+
+	<footer class="footer">
+		<p>관리자: 김연경   Email: rud9138@likelion.org</p>
+	</footer>
+</div>
+</body>
+</html>
